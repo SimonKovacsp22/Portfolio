@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:wght@200&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:wght@200&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">      
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:wght@200&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Anybody:wght@200&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+ <style>
+            body{
+                background-image: url(https://static.vecteezy.com/system/resources/previews/004/881/121/non_2x/blue-background-blue-wallpaper-art-free-photo.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 850px; 
+
+            }
+            #box-image-person{
+                width:fit-content;
+                
+
+            }
+            #image-person{
+                height: 800px;
+                position: absolute;
+                top: 177px;
+                left: 265px;
+                z-index: 3;
+                
+
+            }
+            #card{
+                background-color: rgb(3, 2, 7);
+                height: 600px;
+                width: 1200px;
+                border-radius: 20px;
+                z-index: 2;
+                position:absolute ;
+                top: 150px;
+                left:400px;
+                box-shadow: 0 10px 10px rgba(86, 84, 190, 0.25);
+                border-width: 5px;
+                
+                
+                background-image: linear-gradient(90deg, rgb(57, 235, 190) 0%, transparent 30%);
+                
+                border-color: rgb(243, 243, 243);
+                border-style: solid;
+
+
+                
+            }
+            .bg-images{
+                z-index: 1;
+                
+                
+            }
+            
+            #epicode-logo{
+                height: 100px;
+                position:absolute;
+                top: 10px;
+                left: 10px;
+            }
+            #github-logo{
+                height: 30px;
+                position:absolute;
+                top: 15px;
+                right: 66%;
+                z-index: 3;
+
+            }
+            h1{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size:30px ;
+                position: absolute;
+                top: 250px;
+                left: 450px;
+                z-index:3 ;
+                text-decoration: wavy;
+                  
+            }
+            #My-info{
+                
+                color: white;
+                position: absolute;
+                left:46%;
+                font-family: 'Anybody', cursive;
+                font-family: 'Libre Baskerville', serif;
+
+            }
+            #Contact-box{
+                 z-index: 3;
+                
+                 height: 30px;
+                 width: 120px;
+                 position: absolute;
+                 right: 375px;
+                 border-radius:20%/50% ;
+                 border-style: solid;
+                 border-color: rgb(57, 235, 190);
+                 top: 12px;
+                 cursor: pointer;
+
+            }
+            #Contact{
+                
+                text-align: center;
+                position: relative;
+                top: -15px;
+            }
+            #Contact-box-email{
+                font-family: 'Courier New', Courier, monospace;
+                
+                transform: translateY(-70px);
+      
+                opacity: 0;
+                
+                transition: transform 0.3s;
+                transition-timing-function: ease-in;
+            }
+            #Projects{
+                top:-16px;
+                position: absolute;
+                left:32%;
+
+            }
+            #Projects-box{
+                border: solid;
+                z-index: 4;
+                
+                 height: 30px;
+                 width: 140px;
+                 position: absolute;
+                 right: 690px;
+                 border-radius:20%/50% ;
+                 border-color: rgb(57, 235, 190);
+                 top: 12px;
+                 cursor: pointer;
+
+            }
+                
+
+            
+            #Projects-link{
+                font-family: 'Courier New', Courier, monospace;
+                position: absolute;
+                top:43px ;
+                
+                transform: translateY(-70px);
+      
+                opacity: 0;
+                
+                transition: transform 0.3s;
+                transition-timing-function: ease-in;
+
+
+            }
+
+            #Faq{
+                top:0px;
+                position: absolute;
+                left: 73%;
+
+            }
+            .Text{
+                color: white;
+                font-family: 'Anybody', cursive;
+                font-family: 'Libre Baskerville', serif;
+
+            }
+            #My-bio{
+                color: white;
+                margin-left: 32%;
+    
+                margin-top: 20%  ;
+
+                animation-duration: 3s;
+                animation-name: slidein;
+            }
+
+             @keyframes slidein {
+            from {
+            margin-left: 100%;
+            width: 60%;
+            margin-top: 20%;
+            opacity:0 ;
+            }
+    
+            to {
+            margin-left: 32%;
+            width: 80%;
+            margin-top: 20%;
+            opacity: 1;
+            }
+}
+            #Contact-box:hover #Contact-box-email {
+                transform: translateY(-10px);
+                transition: opacity 0.5s;
+                opacity: 1;
+            }
+            #Projects-box:hover #Projects-link  {
+                
+                transform: translateY(-10px);
+                transition: opacity 0.5s;
+                opacity: 1;
+            }
+
+            
+        </style>
+
+    </head>
+    <body>
+        <h1>Šimon Kováč</h1>
+    
+        <div id="box-image-person">
+            <img id="image-person" src="IMG_20220401_100014_ccexpress.png"/>
+        </div>
+        <div id="card">
+            <h3 id="My-info">About me</h3>
+        
+        <div class="Text">
+        <div id="Contact-box">    
+            <h3 id="Contact">Contact me</h3>
+            <p id="Contact-box-email">simon.kovacsp22@gmail.com</p>
+        </div>
+        
+            <div id="Projects-box">
+                <h3 id="Projects">Projects</h3>
+                
+                <p id="Projects-link">https://github.com/SimonKovacsp22</p>
+                
+            </div>
+                <h3 id="Faq">FAQ</h3>
+                
+            
+            
+            
+        </div>
+        
+        <div class="bg-images">
+            <img id="epicode-logo"src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/1045/original/EPICODE-pitto-color.png"/>
+            <img id="github-logo" src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"/>
+            
+            
+        </div>
+        <div>
+        <p id="My-Bio"> My coding education path began in highschool. That is when i wrote first lines of code in pascal.
+              Later on I enrolled in 3D graphics seminar and spent two semesters creating cool projects in Blender.
+              That is when I dicovered my passion for design. Once I went to university, I developed new skills coding in C#.
+              Later on finished courses on Udemy(C# programming for beginers and C# advanced programming) from Programming Academy.
+              However never worked in the field.
+        </p>
+        </div>
+        </div>
+
+    </body>
+</html>
